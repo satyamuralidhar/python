@@ -9,7 +9,7 @@ class Chiru:
 
 telugu = Chiru("nani" , "jersey")
 tamil  = Chiru("vijay sethupathi" , "96")
-malayalam = Chiru("nvivin", "premam")
+malayalam = Chiru("nivin", "premam")
 kannada = Chiru("yash", "KGF")
 
 telugu.info()
