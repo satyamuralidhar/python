@@ -1,3 +1,8 @@
+name=input("enter name:")
+if name == "satya":
+    print("hello satya")
+    print("welcome to  world")
+    print("\n")
 class Chiru:
     def __init__(self,name,moviename):
         self.name = name
@@ -6,6 +11,7 @@ class Chiru:
     def info(self):
         print('nadigar:', self.name)
         print('padam:', self.moviename)
+        print('\n')
 
 telugu = Chiru("nani" , "jersey")
 tamil  = Chiru("vijay sethupathi" , "96")
