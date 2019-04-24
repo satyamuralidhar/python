@@ -1,10 +1,10 @@
-movie=input("enter the pavan kalyan movie name")
+movie=input("enter the pavan kalyan movie name:")
 if movie == "janatha garage":
-    print("this is the all time recorded movie in ap")
+    print("super hit")
 elif movie == "maharshi":
-    print("this is the all time recorded movie in ap")
+    print("soon")
 elif movie == "mirchi":
-    print("this is the all time recorded movie in ap")
+    print("hit")
 elif movie == "gabbar singh":
     print("this is the all time recorded movie in ap")
 else:
