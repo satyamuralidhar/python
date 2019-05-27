@@ -1,9 +1,12 @@
 class A():
     def MyData(self):
         print('this is mydata')
+    def MyData4(self):
+        print('this is mydata4')    
 class B(A):
     def MyData2(self):
         self.MyData()
+        self.MyData4()
         print('this is mydata2')
 class C():
     def MyData3(self):
@@ -17,6 +20,7 @@ y.MyData2()
 #output:
 #this is mydata
 #this is mydata
+#this is mydata4
 #this is mydata2
 
 
