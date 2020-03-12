@@ -55,3 +55,12 @@ except ZeroDivisionError as end:
 else:
     print("done")
     
+# example 5 in methods:
+
+def m1():
+    n = int(input("enter number: "))
+    print(10/n)
+try:
+    m1()
+except ZeroDivisionError as e:
+    print("gotted error: ",e)
