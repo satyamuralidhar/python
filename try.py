@@ -38,3 +38,20 @@ except TypeError as c:
     print(c)
 else:
     print("Done")
+
+# example 4:
+try:
+    print("new")
+    n = int(input("enter number: "))
+    try:
+        print(10/n)
+        print(10 + "satya")
+    except ValueError as a:
+        print("10/n as vaule error: ",a)
+    except TypeError as b:
+        print("10 + satya as type error: ",b)
+except ZeroDivisionError as end:
+    print("n as zero division error: " , end)
+else:
+    print("done")
+    
