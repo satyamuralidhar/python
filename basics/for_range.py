@@ -12,6 +12,7 @@ for i in range(100,104):
         
         
 #2.Create the below pattern using nested for loop in Python.
+'''
         *  
         * *  
         * * *  
@@ -22,7 +23,7 @@ for i in range(100,104):
         * *  
         * 
 
-        
+'''      
 number = int(input("enter the values: "))
 for i in range(1,number+1):
     for j in range(1,i+1):
