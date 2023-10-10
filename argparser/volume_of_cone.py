@@ -12,10 +12,10 @@ As we can see from the above cone formula, the capacity of a cone is one-third o
 import argparse
 import math
 
-parser = argparse.ArgumentParser("Volume Of The Cone")
+parser = argparse.ArgumentParser(description="Volume Of The Cone")
 
-parser.add_argument('-R','--radius',type=int,metavar='',help='Value Of Radius')
-parser.add_argument('-H','--hight',type=int,metavar='',help='Value Of Hight')
+parser.add_argument('-R','--radius',type=int,metavar='',required=True,help='Value Of Radius')
+parser.add_argument('-H','--hight',type=int,metavar='',required=True,help='Value Of Hight')
 
 
 
