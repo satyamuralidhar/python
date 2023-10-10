@@ -6,10 +6,11 @@ def test_add():
     result=(add_func.add(10,8) == 18)
     assert result
 
-@pytest.mark.sub
+#@pytest.mark.sub
 def test_subtract():
     result=(add_func.subtract(10,8) == 2)
     assert result
+    print("Testing Subtract Function")
 
 @pytest.mark.mul
 def test_multiply():

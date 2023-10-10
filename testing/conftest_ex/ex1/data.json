@@ -1,0 +1,16 @@
+{
+    "students": [
+        {
+            "id" : 1,
+            "name": "Satya",
+            "colleage": "JNTUK",
+            "course": "Btech"
+        },
+        {
+            "id" : 2,
+            "name": "Mohan",
+            "colleage": "JNTUK",
+            "course": "MBA"
+        }
+    ]
+}
